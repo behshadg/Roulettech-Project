@@ -7,4 +7,4 @@ class HelloWorldView(View):
 
 class WelcomeView(View):
     def get(self, request):
-        return JsonResponse({"message": "Welcome to my take-home assessment Django API."})
+        return JsonResponse({"message": "Welcome to my take-home assessment with Roulettech."})
